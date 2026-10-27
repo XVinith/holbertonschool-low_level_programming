@@ -13,6 +13,15 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	printf("Last digit of %d ", n);
+	while (n > 9 || n < -9)
+		n %= 10;
+	printf("is %d and ", n);
+	if (n > 0)
+		printf("is positive\n");
+	else if (n == 0)
+		printf("is zero\n");
+	else
+		printf("less than 6 and not 0\n");
 	return (0);
 }
