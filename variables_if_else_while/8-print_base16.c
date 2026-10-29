@@ -9,17 +9,11 @@ int main(void)
 {
 	int n;
 
-	n = 0;
-	while (n < 10)
-	{
-		putchar('0' + n);
-		n++;
-	}
-	n = 'a';
-	while (n <= 'f')
+	n = 'z';
+	while (n >= 'a')
 	{
 		putchar(n);
-		n++;
+		n--;
 	}
 	putchar('\n');
 	return (0);
