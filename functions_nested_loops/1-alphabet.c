@@ -5,7 +5,7 @@
  *
  * Return: Description of the returned value
  */
-int main(void)
+void print_alphabet(void)
 {
 	int n;
 
@@ -16,5 +16,4 @@ int main(void)
 	}
 	
 	_putchar('\n');
-	return (0);
 }
