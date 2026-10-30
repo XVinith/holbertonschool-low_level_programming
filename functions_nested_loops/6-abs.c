@@ -7,8 +7,8 @@
  * @i: something
  * Return: Description of the returned value
  */
-int _abs(int i)
+int _abs(int)
 {
-	printf("%d", abs(i));
+	printf("%d\n", abs());
 	return (0);
 }
