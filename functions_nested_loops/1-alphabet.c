@@ -10,10 +10,9 @@ void print_alphabet(void)
 	int n;
 
 	n = 'a';
-	while (n < 'z')
+	while (n <= 'z')
 	{
 		_putchar(n++);
 	}
-	
 	_putchar('\n');
 }
