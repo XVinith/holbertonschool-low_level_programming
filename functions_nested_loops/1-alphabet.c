@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Short description, single line
+ * print_alphabet - Short description, single line
  *
  * Return: Description of the returned value
  */
